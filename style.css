@@ -3,3 +3,9 @@ body{
   background-color:#B7B771;
   font-family: Paryrus;
 }
+div{
+  background-color:#ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 15px;
+}
