@@ -9,3 +9,7 @@ div{
   border-radius: 15px;
   margin: 15px;
 }
+
+#left{
+  float:left;
+}
