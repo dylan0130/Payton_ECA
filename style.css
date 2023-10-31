@@ -13,3 +13,16 @@ div{
 #left{
   float:left;
 }
+#page-1-image{ 
+animation: fade-in 2s;
+  -fadey-animation: fade-in 2s;
+}
+@fadey-keyframes fade-in
+{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1; 
+  }
+
