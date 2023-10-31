@@ -14,8 +14,8 @@ div{
   float:left;
 }
 #page-1-image{ 
-animation: fade-in 2s;
-  -fadey-animation: fade-in 2s;
+animation: fade-in 5s;
+  -fadey-animation: fade-in 5s;
 }
 @keyframes fade-in
 {
