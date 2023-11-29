@@ -1,19 +1,11 @@
 let nameOfElement;
-nameOfElement= "demo";
-console.log("Heyyyy");
-
-
-
-// Código en español
-alert("holya");
-
-// English code
-console.log("holya");
+nameOfElement = "demo";
 
 function changeText(){
-  document.getElementById("demo").innerHTML = "..ill be ur coffee pot xoxo";
+  document.getElementById(nameOfElement).innerHTML = "lol";
+  console.log(nameOfElement);
 }
 
 function printToConsole(input) {
-  window.alert(input);
+    window.alert(input);
 }
