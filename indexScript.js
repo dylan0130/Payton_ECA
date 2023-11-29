@@ -1,8 +1,8 @@
 // Código en español
-alert("Hello! Welcome to my page u little christmas tree!!!");
+alert("Hello, Welcome to my page, hope you enjoy");
 
 // English code
-console.log("happy holidays!!");
+console.log("hope you enjoyed");
 
 function changeText(){
   document.getElementById("demo").innerHTML = "..ill be ur coffee pot xoxo";
