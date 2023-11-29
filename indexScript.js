@@ -1,5 +1,9 @@
 let nameOfElement;
 nameOfElement= "demo";
+console.log("Heyyyy");
+
+
+
 // Código en español
 alert("Hello, Welcome to my page, hope you enjoy");
 
