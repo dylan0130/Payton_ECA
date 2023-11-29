@@ -5,10 +5,10 @@ console.log("Heyyyy");
 
 
 // Código en español
-alert("Hello, Welcome to my page, hope you enjoy");
+alert("holya");
 
 // English code
-console.log("hope you enjoyed");
+console.log("holya");
 
 function changeText(){
   document.getElementById("demo").innerHTML = "..ill be ur coffee pot xoxo";
