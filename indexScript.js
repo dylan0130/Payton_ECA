@@ -8,4 +8,9 @@ function changeText(){
 
 function printToConsole(input) {
     window.alert(input);
+  
+  const person = {
+  name:"Dylan",
+    age:169,
+  favcolor:"yellow"
 }
