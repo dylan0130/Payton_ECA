@@ -6,11 +6,14 @@ function changeText(){
   console.log(nameOfElement);
 }
 
+  let person = {
+  firstName:"Dylan",
+    Age: 169,
+  favoriteColor:"yellow"
+};
 function printToConsole(input) {
     window.alert(input);
-  
-  const person = {
-  name:"Dylan",
-    age:169,
-  favcolor:"yellow"
 }
+function happyDay(){
+  person.Age ++;
+  window.alert(person.Age);
