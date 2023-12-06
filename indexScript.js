@@ -17,3 +17,4 @@ function printToConsole(input) {
 function happyDay(){
   person.Age ++;
   window.alert(person.Age);
+}
