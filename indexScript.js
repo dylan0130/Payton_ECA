@@ -24,3 +24,10 @@ function happyDay(){
   person.Age ++;
   window.alert(person.Age);
 }
+const date = new Date();
+let day = day.getDate()
+let month = date.getMonth() + 1
+let year = date.getFullYear()
+
+let fullDate = '${month}-${day}-${year}'
+console.log(fullDate)
