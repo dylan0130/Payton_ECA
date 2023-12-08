@@ -1,4 +1,14 @@
 let nameOfElement;
+
+let date1 = new Date("9/11/23");
+let date2 = new Date();
+
+// To calculate the time difference of two dates
+let Difference_In_Time = date2.getTime() - date1.getTime();
+
+// To calculate the no. of days between two dates
+let Difference_In_Days = 
+	Math.round(Difference_In_Time / (1000 * 3600 * 24));let nameOfElement;
 nameOfElement = "demo";
 
 // Código en español
@@ -24,10 +34,9 @@ function happyDay(){
   person.Age ++;
   window.alert(person.Age);
 }
-const date = new Date();
-let day = day.getDate()
-let month = date.getMonth() + 1
-let year = date.getFullYear()
+// To display the final no. of days (result)
 
-let fullDate = '${month}-${day}-${year}'
-console.log(fullDate)
+function Days() {
+// To display the final no. of days (result)
+window.alert ("It's been " +  Difference_In_Days + " days");
+}
