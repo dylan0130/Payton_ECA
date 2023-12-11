@@ -18,7 +18,7 @@ alert("Welcome pookie");
 console.log("hi pookies");
 
 function changeText(){
-  document.getElementById(nameOfElement).innerHTML = "...let me be your coffee pot.";
+  document.getElementById(nameOfElement).innerHTML = "heyyy";
   console.log(nameOfElement);
 }
 
